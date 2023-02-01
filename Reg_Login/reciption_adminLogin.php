@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
         if ($_POST['email'] == 'admin@gmail.com' && $_POST['password'] == 'admin') {
 
-            header("Location: ../Manager_view/Manager_view(QC).php");
+            header("Location: ../Manager_view/Manage_Receptionist.php");
         }
         else
         {
